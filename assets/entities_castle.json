@@ -1,0 +1,123 @@
+{
+    "npc": [
+        {
+            "name": "Prince Suna",
+            "pos": [1136, 800],
+            "texture": "assets/Characters/cops.png",
+            "dialog": "Hey you ! Please help my father with these monsters.",
+            "action": "none_func"
+        },
+        {
+            "name": "King Servant",
+            "pos": [1168, 672],
+            "texture": "assets/Characters/cops.png",
+            "dialog": "Are you the hero who came to save us? What a question, of course you are! Then the king is waiting for you in his castle.",
+            "action": "none_func"
+        },
+        {
+            "name": "Peter Porker",
+            "pos": [96, 960],
+            "texture": "assets/Characters/cops.png",
+            "dialog": "Hey little guy, can you get rid of these monsters in my field please ?",
+            "action": "none_func"
+        },
+        {
+            "name": "Bruk Wein",
+            "pos": [464, 128],
+            "texture": "assets/Characters/adventurer.png",
+            "dialog": "You must be the king's envoy, go straight to the floating mountains, at the end you will find a dungeon, this is where all these monsters come from. Good luck !",
+            "action": "none_func"
+        }],
+    "enemy": [
+        {
+            "pos_max": [480, 880],
+            "pos_min": [112, 432],
+            "texture": "init_skeleton_textures",
+            "life": 3
+        },
+        {
+            "pos_max": [480, 880],
+            "pos_min": [112, 432],
+            "texture": "init_skeleton_textures",
+            "life": 3
+        },
+        {
+            "pos_max": [480, 880],
+            "pos_min": [112, 432],
+            "texture": "init_skeleton_textures",
+            "life": 3
+        },
+        {
+            "pos_max": [480, 880],
+            "pos_min": [112, 432],
+            "texture": "init_rogue_textures",
+            "life": 6
+        },
+        {
+            "pos_max": [480, 880],
+            "pos_min": [112, 432],
+            "texture": "init_rogue_textures",
+            "life": 6
+        },
+        {
+            "pos_max": [480, 880],
+            "pos_min": [112, 432],
+            "texture": "init_rogue_textures",
+            "life": 6
+        },
+        {
+            "pos_max": [928, 880],
+            "pos_min": [672, 720],
+            "texture": "init_skeleton_textures",
+            "life": 3
+        },
+        {
+            "pos_max": [928, 880],
+            "pos_min": [112, 432],
+            "texture": "init_rogue_textures",
+            "life": 6
+        },
+        {
+            "pos_max": [640, 161],
+            "pos_min": [112, 432],
+            "texture": "init_skeleton_textures",
+            "life": 6
+        },
+        {
+            "pos_max": [640, 161],
+            "pos_min": [112, 432],
+            "texture": "init_rogue_textures",
+            "life": 6
+        },
+        {
+            "pos_max": [1552, 1024],
+            "pos_min": [1328, 801],
+            "texture": "init_skeleton_textures",
+            "life": 3
+        },
+        {
+            "pos_max": [1552, 1024],
+            "pos_min": [1328, 801],
+            "texture": "init_rogue_textures",
+            "life": 6
+        }
+    ],
+    "item": [{
+        "texture": "assets/apple.png",
+        "info": "A fruit which give you 1 HP.",
+        "name": "Apple",
+        "pos": [320, 592]
+     },
+     {
+        "texture": "assets/apple.png",
+        "info": "A fruit which give you 1 HP.",
+        "name": "Apple",
+        "pos": [208, 720]
+     },
+     {
+        "texture": "assets/crown.png",
+        "info": "A crown but it is written BK on it.",
+        "name": "A cardboard crown",
+        "pos": [1520, 640]
+     }]
+}

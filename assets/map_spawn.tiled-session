@@ -1,0 +1,107 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "map_city.json",
+    "expandedProjectPaths": [
+        "."
+    ],
+    "file.lastUsedOpenFilter": "All Files (*)",
+    "fileStates": {
+        "map.json": {
+            "expandedObjectLayers": [
+                6
+            ],
+            "scale": 0.5,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 2524,
+                "y": 2832
+            }
+        },
+        "map_castle.json": {
+            "expandedObjectLayers": [
+                2
+            ],
+            "scale": 0.75,
+            "selectedLayer": 4,
+            "viewCenter": {
+                "x": 1218.6666666666665,
+                "y": 261.33333333333337
+            }
+        },
+        "map_city.json": {
+            "expandedObjectLayers": [
+                4
+            ],
+            "scale": 5.5,
+            "selectedLayer": 4,
+            "viewCenter": {
+                "x": 201.63636363636363,
+                "y": 1081.6363636363637
+            }
+        },
+        "map_dungeon.json": {
+            "expandedObjectLayers": [
+                5
+            ],
+            "scale": 64,
+            "selectedLayer": 4,
+            "viewCenter": {
+                "x": 1544.921875,
+                "y": 503.859375
+            }
+        },
+        "map_houses.json": {
+            "expandedObjectLayers": [
+                4
+            ],
+            "scale": 90,
+            "selectedLayer": 4,
+            "viewCenter": {
+                "x": 481.06666666666666,
+                "y": 483.15555555555557
+            }
+        },
+        "map_spawn.json": {
+            "expandedObjectLayers": [
+                4
+            ],
+            "scale": 11,
+            "selectedLayer": 4,
+            "viewCenter": {
+                "x": 799.3636363636365,
+                "y": 535.3636363636364
+            }
+        },
+        "tileset.tsx": {
+            "scaleInDock": 1
+        }
+    },
+    "last.imagePath": "/home/Neisan/delivery/MUL/S2/B-MUL-200-RUN-2-1-myrpg-leo.sautron/assets/World",
+    "map.height": 67,
+    "map.lastUsedFormat": "json",
+    "map.tileHeight": 16,
+    "map.tileWidth": 16,
+    "map.width": 100,
+    "openFiles": [
+        "map_spawn.json",
+        "map_city.json"
+    ],
+    "project": "map_spawn.tiled-project",
+    "property.type": "string",
+    "recentFiles": [
+        "map_spawn.json",
+        "map_city.json",
+        "map_dungeon.json",
+        "map_castle.json",
+        "map_houses.json",
+        "map.json"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 16,
+        "width": 16
+    }
+}

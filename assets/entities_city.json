@@ -1,0 +1,91 @@
+{
+    "npc": [
+        {
+            "name": "Navy\nGator",
+            "pos": [1472, 448],
+            "texture": "assets/Characters/boy.png",
+            "dialog": "Hey man, leave me alone please.",
+            "action": "none_func"
+        },
+        {
+            "name": "Whaler\nDealer",
+            "pos": [1344, 320],
+            "texture": "assets/Characters/boy_3.png",
+            "dialog": "Hi, excuse me I don't have much time, we merchants don't have vacations !",
+            "action": "none_func"
+        },
+        {
+            "name": "Ame Ongus",
+            "pos": [1456, 64],
+            "texture": "assets/Characters/boy_2.png",
+            "dialog": "Hi man, do you want a little something to make you feel good for just 3 coins ?",
+            "action": "buy_apple"
+        },
+        {
+            "name": "Bruscetta\nThunderberg",
+            "pos": [752, 128],
+            "texture": "assets/Characters/npc_workeur.png",
+            "dialog": "I don't think it's right to kill these skeletons, even though they are already dead...",
+            "action": "none_func"
+        },
+        {
+            "name": "Marketa\nDi Poma",
+            "pos": [704, 624],
+            "texture": "assets/Characters/adventurer.png",
+            "dialog": "This town is really booming, but the monsters that roam the area may scare away the customers.",
+            "action": "none_func"
+        },
+        {
+            "name": "Normy\nNetta",
+            "pos": [112, 432],
+            "texture": "assets/Characters/npc_black.png",
+            "dialog": "I have nothing for you, but I can sell you this if you want.",
+            "action": "buy_apple"
+        },
+        {
+            "name": "Leolito\nSaturna",
+            "pos": [720, 96],
+            "texture": "assets/Characters/boy.png",
+            "dialog": "I really like this place, it looks like me, isn't it ?",
+            "action": "none_func"
+        },
+        {
+            "name": "Metal Ica",
+            "pos": [1088, 432],
+            "texture": "assets/Characters/npc_workeur.png",
+            "dialog": "Hey ! I am the blacksmith, do you want to upgrade your weapon ?",
+            "action": "buy_weapon"
+        },
+        {
+            "name": "Chick Obo",
+            "pos": [1536, 496],
+            "texture": "assets/Characters/npc_workeur.png",
+            "dialog": "Good morning, I have captured a certain animal quite known for its fidelity, do you want to buy it for only 10 coins ?",
+            "action": "buy_chocobo"
+        },
+        {
+            "name": "Nicky Lym",
+            "pos": [1408, 1008],
+            "texture": "assets/Characters/boy_3.png",
+            "dialog": "I don't understand why people in this country only eat apples...",
+            "action": "none_func"
+        }],
+    "item": [{
+        "texture": "assets/natoxie.png",
+        "info": "A strange music listenned by many people here.",
+        "name": "Atoxie",
+        "pos": [240, 128]
+     },
+     {
+        "texture": "assets/card.png",
+        "info": "People say it belongs to an handlebar.",
+        "name": "Student Card",
+        "pos": [944, 960]
+     },
+     {
+        "texture": "assets/money.png",
+        "info": "A lost wallet with a YuGiHo card.",
+        "name": "A BoomerWallet",
+        "pos": [592, 64]
+     }]
+}

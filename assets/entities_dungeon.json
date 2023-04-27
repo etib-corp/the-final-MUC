@@ -1,0 +1,130 @@
+{
+    "enemy": [
+        {
+            "pos_max": [496, 912],
+            "pos_min": [448, 880],
+            "texture": "init_rogue_textures",
+            "life": 9
+        },
+        {
+            "pos_max": [720, 896],
+            "pos_min": [560, 880],
+            "texture": "init_rogue_textures",
+            "life": 9
+        },
+        {
+            "pos_max": [720, 896],
+            "pos_min": [560, 880],
+            "texture": "init_rogue_textures",
+            "life": 9
+        },
+        {
+            "pos_max": [720, 896],
+            "pos_min": [560, 880],
+            "texture": "init_rogue_textures",
+            "life": 9
+        },
+        {
+            "pos_max": [848, 912],
+            "pos_min": [800, 896],
+            "texture": "init_rogue_textures",
+            "life": 9
+        },
+        {
+            "pos_max": [1120, 896],
+            "pos_min": [1056, 880],
+            "texture": "init_rogue_textures",
+            "life": 9
+        },
+        {
+            "pos_max": [320, 704],
+            "pos_min": [16, 16],
+            "texture": "init_rogue_textures",
+            "life": 9
+        },
+        {
+            "pos_max": [320, 704],
+            "pos_min": [16, 16],
+            "texture": "init_rogue_textures",
+            "life": 9
+        },
+        {
+            "pos_max": [320, 704],
+            "pos_min": [16, 16],
+            "texture": "init_rogue_textures",
+            "life": 9
+        },
+        {
+            "pos_max": [320, 704],
+            "pos_min": [16, 16],
+            "texture": "init_rogue_textures",
+            "life": 9
+        },
+        {
+            "pos_max": [320, 704],
+            "pos_min": [16, 16],
+            "texture": "init_rogue_textures",
+            "life": 9
+        },
+        {
+            "pos_max": [320, 704],
+            "pos_min": [16, 16],
+            "texture": "init_rogue_textures",
+            "life": 9
+        },
+        {
+            "pos_max": [320, 704],
+            "pos_min": [16, 16],
+            "texture": "init_rogue_textures",
+            "life": 9
+        },
+        {
+            "pos_max": [320, 704],
+            "pos_min": [16, 16],
+            "texture": "init_rogue_textures",
+            "life": 9
+        },
+        {
+            "pos_max": [1024, 704],
+            "pos_min": [336, 576],
+            "texture": "init_rogue_textures",
+            "life": 9
+        },
+        {
+            "pos_max": [1024, 704],
+            "pos_min": [336, 576],
+            "texture": "init_rogue_textures",
+            "life": 9
+        },
+        {
+            "pos_max": [1024, 704],
+            "pos_min": [336, 576],
+            "texture": "init_rogue_textures",
+            "life": 9
+        }
+    ],
+    "item": [{
+        "texture": "assets/cobratek.png",
+        "info": "Cobra and TekTek, impossible...",
+        "name": "Stickers",
+        "pos": [64, 64]
+     },
+     {
+        "texture": "assets/apple.png",
+        "info": "A fruit which give you 1 HP.",
+        "name": "Apple",
+        "pos": [256, 176]
+     },
+     {
+        "texture": "assets/apple.png",
+        "info": "A fruit which give you 1 HP.",
+        "name": "Apple",
+        "pos": [64, 400]
+     },
+     {
+        "texture": "assets/venti.png",
+        "info": "A simple fan, simple but vital.",
+        "name": "A fan",
+        "pos": [1544, 504]
+     }]
+}

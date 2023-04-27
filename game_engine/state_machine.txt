@@ -1,0 +1,113 @@
+GAME_STATES :
+
+Menu : 
+    check_menu_evt
+    update_menu
+    draw_menu
+    update_sm
+
+Play : 
+    check_evt
+    update_game
+        update_entities
+        update_sm
+    draw_game
+        draw_entities
+        draw_map
+
+Pause :
+    check_menu_evt
+    update_pause_menu
+    display_pause_menu
+    update_sm
+
+Exit :
+    free_all
+        destroy_csfml_elements
+        free_entities
+
+PLAYER_STATES :
+
+Idle:
+    check_player_evt
+    update_sm
+
+Hidden :
+    update_sm
+
+Move :
+    check_player_evt
+    check_collision
+    check_hurtbox
+    move_player
+    update_sm
+
+Attack :
+    check_player_evt
+    check_collision
+    check_hitbox
+    check_hurtbox
+    move_player
+    update_sm
+
+
+ENEMY_STATES :
+
+Idle :
+    update_sm
+
+Hidden :
+    update_sm
+
+Move :
+    check_collision
+    check_hurtbox
+    move_enemy
+    update_sm
+
+Attack :
+    check_collision
+    check_hitbox
+    check_hurtbox
+    move_enemy
+    update_sm
+
+NPC_STATES :
+
+Hidden :
+    update_sm
+
+Idle :
+    check_zone
+    update_sm
+
+Move :
+    check_collision
+    move_npc
+    update_sm
+
+Dialog :
+    update_sm
+    check_dialog_evt
+    draw_dialog
+
+DIALOG_STATES :
+
+Hidden :
+    update_sm
+
+Display :
+    check_dialog_evt
+    draw_dialog
+    update_sm
+
+ITEM :
+
+Hidden :
+    update_sm
+
+
+
+
+// faire un npc entoure de panneau "NE PAS LUI PARLER" qui, 
+si on lui parle, le dialogue dure 5 minutes

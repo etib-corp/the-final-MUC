@@ -1,0 +1,173 @@
+{
+    "npc": [
+        {
+            "name": "Mama Cita",
+            "pos": [176, 688],
+            "texture": "assets/Characters/cops.png",
+            "dialog": "If you are searching for the king, he is in his bedroom.",
+            "action": "none_func"
+        },
+        {
+            "name": "Belea PSUpala",
+            "pos": [576, 736],
+            "texture": "assets/Characters/boy_sasuke.png",
+            "dialog": "Today I did a lot of things you know, first I cleaned the entrance hall, then I cleaned the king's room which is in the back of the castle, now I finished helping Mama to clean the children's room and I start to prepare the meal. But I tell you this but who are you?.",
+            "action": "none_func"
+        },
+        {
+            "name": "Queen Freddie",
+            "pos": [144, 498],
+            "texture": "assets/Characters/adventurer.png",
+            "dialog": "My husband is next to the indoor pool in our room if you are looking for him.",
+            "action": "none_func"
+        },
+        {
+            "name": "King Beurgueur",
+            "pos": [480, 480],
+            "texture": "assets/Characters/npc_black.png",
+            "dialog": "I wanted to meet you to make sure that your equipment was effective enough to beat MUC. If not, go see the blacksmith in town.",
+            "action": "none_func"
+        },
+        {
+            "name": "Will Yum",
+            "pos": [176, 16],
+            "texture": "assets/Characters/adventurer.png",
+            "dialog": "Last night, a lot of people came to take refuge in the hotel, I don't know what's going on but it's weird...",
+            "action": "none_func"
+        },
+        {
+            "name": "Al Leen",
+            "pos": [32, 80],
+            "texture": "assets/Characters/boy_3.png",
+            "dialog": "People talks about a big monster, it is worrying...",
+            "action": "none_func"
+        },
+        {
+            "name": "Great Atenberg",
+            "pos": [752, 0],
+            "texture": "assets/Characters/cops.png",
+            "dialog": "Knights never came here before...",
+            "action": "none_func"
+        },
+        {
+            "name": "Knight Officer",
+            "pos": [848, 112],
+            "texture": "assets/Characters/adventurer.png",
+            "dialog": "Hey you, don't go in the forest, it may be dangerous !",
+            "action": "none_func"
+        },
+        {
+            "name": "Team Button",
+            "pos": [1520, 16],
+            "texture": "assets/Characters/npc_workeur.png",
+            "dialog": "Welcome to the Navbar, do you want to eat something, it just costs 3 coins ?",
+            "action": "buy_apple"
+        },
+        {
+            "name": "Jack Spare-Owl",
+            "pos": [1328, 48],
+            "texture": "assets/Characters/boy.png",
+            "dialog": "Have you heard about, the blacksmith of this town ? Everybody says he is the best of all the country !.",
+            "action": "none_func"
+        }
+    ],
+    "enemy": [
+        {
+            "pos_max": [1488, 928],
+            "pos_min": [1456, 368],
+            "texture": "init_rogue_textures",
+            "life": 12
+        },
+        {
+            "pos_max": [1488, 928],
+            "pos_min": [1456, 368],
+            "texture": "init_rogue_textures",
+            "life": 12
+        },
+        {
+            "pos_max": [1488, 928],
+            "pos_min": [1456, 368],
+            "texture": "init_rogue_textures",
+            "life": 12
+        },
+        {
+            "pos_max": [1264, 928],
+            "pos_min": [1232, 368],
+            "texture": "init_rogue_textures",
+            "life": 12
+        },
+        {
+            "pos_max": [1264, 928],
+            "pos_min": [1232, 368],
+            "texture": "init_rogue_textures",
+            "life": 12
+        },
+        {
+            "pos_max": [1264, 928],
+            "pos_min": [1232, 368],
+            "texture": "init_rogue_textures",
+            "life": 12
+        },
+        {
+            "pos_max": [1040, 928],
+            "pos_min": [976, 336],
+            "texture": "init_rogue_textures",
+            "life": 12
+        },
+        {
+            "pos_max": [1040, 928],
+            "pos_min": [976, 336],
+            "texture": "init_rogue_textures",
+            "life": 12
+        },
+        {
+            "pos_max": [1040, 928],
+            "pos_min": [976, 336],
+            "texture": "init_rogue_textures",
+            "life": 12
+        }
+    ],
+    "item": [{
+        "texture": "assets/apple.png",
+        "info": "A fruit which give you 1 HP.",
+        "name": "Apple",
+        "pos": [1392, 666]
+     },
+     {
+        "texture": "assets/apple.png",
+        "info": "A fruit which give you 1 HP.",
+        "name": "Apple",
+        "pos": [1552, 410]
+     },
+     {
+        "texture": "assets/apple.png",
+        "info": "A fruit which give you 1 HP.",
+        "name": "Apple",
+        "pos": [1332, 604]
+     },
+     {
+        "texture": "assets/apple.png",
+        "info": "A fruit which give you 1 HP.",
+        "name": "Apple",
+        "pos": [1324, 924]
+     },
+     {
+        "texture": "assets/apple.png",
+        "info": "A fruit which give you 1 HP.",
+        "name": "Apple",
+        "pos": [912, 668]
+     },
+     {
+        "texture": "assets/apple.png",
+        "info": "A fruit which give you 1 HP.",
+        "name": "Apple",
+        "pos": [1104, 540]
+     },
+     {
+        "texture": "assets/supreme.png",
+        "info": "The supreme handlebar !",
+        "name": "EL Supremo Guidon !",
+        "pos": [1008, 352]
+     }
+    ]
+}

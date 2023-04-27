@@ -1,0 +1,122 @@
+{
+    "npc": [
+        {
+        "name": "Thibault",
+        "pos": [1400, 976],
+        "texture": "assets/Characters/boy_sasuke.png",
+        "dialog": "Hello to you my son, now that you are of age, you have the right to walk alone. Visit the hotel-restaurant in the village, and also your uncle at the bistro behind our house.",
+        "action": "none_func"
+        },
+        {
+        "name": "Uncle Ben",
+        "pos": [1520, 864],
+        "texture": "assets/Characters/npc_black.png",
+        "dialog": "Hi son, you're in trouble... Indeed, some knights came to ask questions in my bistro about a certain monster that is said to be roaming around, and we were already quite annoyed with the skeletons that are coming out of the ground. Could you try to find out more about this monster, please? Now that you are 18 years old, and with your grandfather's training you are capable of doing great things.",
+        "action": "none_func"
+        },
+        {
+        "name": "Knight Intern",
+        "pos": [545, 528],
+        "texture": "assets/Characters/cops.png",
+        "dialog": "HO! You made it through the forest?! I will never have your courage... Your school must have taught you great values. But this is no time to talk, the old town is overrun with skeletons, and I'm still just a trainee. Could you please help me kill them? If so, at the top of the village you will find my superior who will be able to give you more information about this monster. So can you help me ?",
+        "action": "none_func"
+        },
+        {
+        "name": "Kelvin Breakall",
+        "pos": [192, 48],
+        "texture": "assets/Characters/cops.png",
+        "dialog": "I'm sorry, if you want to know more about this monster, but do you want an apple for 3 coins ?",
+        "action": "buy_apple"
+        }],
+    "enemy": [
+        {
+            "pos_max": [1328, 544],
+            "pos_min": [1312, 432],
+            "texture": "init_skeleton_textures",
+            "life": 2
+        },
+        {
+            "pos_max": [1280, 192],
+            "pos_min": [1168, 144],
+            "texture": "init_skeleton_textures",
+            "life": 2
+        },
+        {
+            "pos_max": [1280, 400],
+            "pos_min": [1136, 352],
+            "texture": "init_skeleton_textures",
+            "life": 2
+        },
+        {
+            "pos_max": [928, 320],
+            "pos_min": [832, 288],
+            "texture": "init_skeleton_textures",
+            "life": 2
+        },
+        {
+            "pos_max": [912, 656],
+            "pos_min": [848, 608],
+            "texture": "init_skeleton_textures",
+            "life": 2
+        },
+        {
+            "pos_max": [816, 960],
+            "pos_min": [656, 928],
+            "texture": "init_skeleton_textures",
+            "life": 2
+        },
+        {
+            "pos_max": [304, 1056],
+            "pos_min": [48, 816],
+            "texture": "init_skeleton_textures",
+            "life": 2
+        },
+        {
+            "pos_max": [304, 1056],
+            "pos_min": [48, 816],
+            "texture": "init_skeleton_textures",
+            "life": 2
+        },
+        {
+            "pos_max": [576, 1056],
+            "pos_min": [336, 816],
+            "texture": "init_skeleton_textures",
+            "life": 2
+        },
+        {
+            "pos_max": [576, 1056],
+            "pos_min": [336, 816],
+            "texture": "init_skeleton_textures",
+            "life": 2
+        },
+        {
+            "pos_max": [176, 400],
+            "pos_min": [48, 304],
+            "texture": "init_skeleton_textures",
+            "life": 2
+        },
+        {
+            "pos_max": [176, 288],
+            "pos_min": [48, 208],
+            "texture": "init_skeleton_textures",
+            "life": 2
+        }],
+    "item": [{
+        "texture": "assets/apple.png",
+        "info": "A fruit which give you 1 HP.",
+        "name": "Apple",
+        "pos": [1216, 520]
+     },
+     {
+        "texture": "assets/man.png",
+        "info": "A book which looks strangely like the teaching your grandfather gave you.",
+        "name": "The Man",
+        "pos": [976, 400]
+     },
+     {
+        "texture": "assets/handlebar.png",
+        "info": "Just an useless and cumbersome item...",
+        "name": "A basic handlebar",
+        "pos": [592, 64]
+     }]
+}
